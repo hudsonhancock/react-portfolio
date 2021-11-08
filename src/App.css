@@ -28,10 +28,16 @@ nav a.nav-link{
     font-weight: 200;
     text-transform: uppercase;
     text-decoration: none;
-    margin-left: 10px;
-    margin-top: 10px;
 }
 
 .navbar-nav > li > a{
     color: var(--tertiary) !important;
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+}
+
+.navbar-brand{
+max-width: 17.25rem;
+padding: 0 !important;
+height: 4rem !important;
 }

@@ -3,7 +3,7 @@ import logo from "../../src/logo.png";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container">
         <a className="navbar-brand text-light" href="/">
           <img className="logo" src={logo} alt="logo" />
@@ -33,6 +33,11 @@ const Navbar = () => {
             <li className="nav-item">
               <a className="nav-link text-light" href="/about">
                 About
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link text-light" href="/services">
+                Services
               </a>
             </li>
             <li className="nav-item">

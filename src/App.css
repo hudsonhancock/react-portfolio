@@ -9,8 +9,8 @@
 body{
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
-  background-color:var(--primary) !important;
-  height: 90vh;
+  /* background-color:var(--primary) !important; */
+  /* height: 90vh; */
 }
 
 /* --------------------------NAVBAR----------------------------- */
@@ -57,3 +57,44 @@ max-width: 17.25rem;
 padding: 0 !important;
 height: 4rem !important;
 }
+
+/* --------------------------HEADER----------------------------- */
+.header-wrapper{
+  position: relative;
+  height: 89vh;
+  width: 100%;
+  background: url(header3.png) no-repeat center center;
+  background-size: cover;
+  background-position: center;
+ 
+}
+
+.poo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.subTitle{
+background-color: #101010;
+color: var(--tertiary);
+font-family: 'Roboto', sans-serif;
+font-size: 3rem;
+text-transform: uppercase;
+font-weight: 300;
+padding: 1rem;
+text-align: center;
+}
+
+/* -----------TYPED TEXT-------------- */
+.typed-text{
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+}
+
+
+
+

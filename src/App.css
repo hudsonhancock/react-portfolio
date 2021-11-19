@@ -3,15 +3,33 @@
 :root {
   --primary: #5c5c5c;
   --secondary: #fff;
-  --tertiary: hotpink;
+  --tertiary: yellow;
+  --quaternary: #00806f;
 }
 
 body{
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
-  /* background-color:var(--primary) !important; */
+  background-color:var(--quaternary) !important;
+  color: var(--secondary) !important;
   /* height: 90vh; */
 }
+
+section{
+width: 90%;
+margin: 0 auto;
+
+}
+
+img{
+  margin: 1rem auto;
+}
+
+h1{
+  font-size: 2rem;
+  text-align: left;
+  margin: 1rem auto;
+} 
 
 /* --------------------------NAVBAR----------------------------- */
 .logo{
@@ -58,7 +76,14 @@ padding: 0 !important;
 height: 4rem !important;
 }
 
-/* --------------------------HEADER----------------------------- */
+/* --------------------------HOME----------------------------- */
+.home-link-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
 .header-wrapper{
   position: relative;
   height: 89vh;
@@ -88,11 +113,11 @@ padding: 1rem;
 text-align: center;
 }
 
-/* -----------TYPED TEXT-------------- */
-.typed-text{
-  color: white;
-  text-align: center;
-  font-size: 3rem;
+/* -----------FOOTER-------------- */
+#sticky-footer{
+  position: fixed;
+  bottom: 0;
+  width:100%;
 }
 
 
